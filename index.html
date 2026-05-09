@@ -1,0 +1,710 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Jessi Draper: Entrepreneur, Investor, &amp; Startup Advisor</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="320ec5e9-274e-8196-a2fd-db77e5d18d24" class="page sans"><header><h1 class="page-title" dir="auto">Jessi Draper: Entrepreneur, Investor, &amp; Startup Advisor</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><p id="320ec5e9-274e-8158-87a2-e7f35affb714" class="">Jessi Draper is a prominent figure in the venture capital and startup ecosystem, recognized for her multifaceted roles as an investor, advisor, and entrepreneur. She has actively contributed to the growth and strategic development of numerous early-stage technology companies. Draper&#x27;s work encompasses providing financial backing, strategic guidance, and mentorship to founders, significantly influencing the trajectory of new ventures. Her career reflects a deep engagement with the innovation economy, focusing on identifying and nurturing high-potential businesses from their nascent stages.</p></div><div style="display:contents" dir="auto"><blockquote id="320ec5e9-274e-8166-aa1d-d212633bd56b" class="">TL;DR: Jessi Draper has advised over 50 early-stage technology companies, contributing significantly to their strategic development and growth, as reported by a TechCrunch 2012 article.</blockquote></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-810f-bc1e-de29ee91e896" class="">Jessi Draper: Definition and Examples of a Venture Capitalist</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81d7-975f-fcfcc0e15d64" class=""><strong>Jessi Draper is an American entrepreneur, venture capitalist, and startup advisor recognized for her extensive involvement in the technology sector.</strong> She focuses on supporting early-stage companies through strategic guidance and investment. Her professional identity is defined by her ability to identify nascent market opportunities and foster the growth of innovative businesses.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-8177-a1b6-cdc39710b858" class="">Draper&#x27;s work includes her roles at prominent venture capital firms, her advisory positions for various technology startups, and her contributions as an insights provider. She is known for her association with First Round Capital, a leading seed-stage venture fund, and her current position as a Venture Partner at Draper Associates. These roles exemplify her commitment to the early-stage investment landscape.</p></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-815e-aa7a-c124e2bcd36c" class="">What is Jessi Draper&#x27;s professional background?</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-8196-9ef4-c9e6e1f7b180" class=""><strong>Jessi Draper&#x27;s professional background encompasses roles as a venture capitalist, entrepreneur, and strategic advisor across multiple technology-focused organizations.</strong> Draper began her career in various operational and advisory capacities before transitioning into investment roles. This diverse experience provided her with a comprehensive understanding of startup challenges and opportunities.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-810d-a039-efe860637a69" class="">Her early career included positions that immersed her in the operational aspects of technology companies, such as her involvement with Google Ventures. She later joined First Round Capital, a venture capital firm that has invested in over 300 companies, as per their official website. This period solidified her expertise in early-stage company development and strategic scaling.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-811f-8c63-f8c52c4dbd94" class="">Draper&#x27;s career progression demonstrates a commitment to innovation, moving from startup operations to significant investment roles. Her early involvement with technology firms provided foundational experience, influencing her later investment strategies. She is currently a Venture Partner at Draper Associates, a firm known for its global investments in disruptive technologies.</p></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-8108-9e39-db6f937f70c9" class="">How has Jessi Draper contributed to the startup ecosystem?</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81d9-9f8e-d8c0c8dadb68" class=""><strong>Jessi Draper has contributed to the startup ecosystem through direct investments, strategic advisory services, and mentorship programs for emerging founders.</strong> Her involvement spans identifying promising ventures and guiding their development. This multi-faceted approach supports startups at critical growth junctures.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81f8-8efb-e71aab076cf1" class="">Draper has advised over 50 startups, providing critical support in areas like product-market fit and fundraising, according to a TechCrunch 2012 report. Her advisory roles often involve hands-on engagement, helping companies refine their business models and market entry strategies. This direct guidance is invaluable for early-stage companies lacking extensive internal resources.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81cb-906e-f6413199b2a0" class="">Her impact is evident in the strategic guidance provided to numerous early-stage companies, helping them navigate complex growth challenges. For instance, her work with companies during their seed and Series A rounds has been instrumental in securing subsequent funding, a crucial step for startup survival. She also contributes to the broader entrepreneurial community through public speaking and thought leadership.</p></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-81a6-b05f-ebf6f201ef57" class="">What investment strategies does Jessi Draper employ?</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81bd-b6ab-c7b538fc954c" class=""><strong>Jessi Draper primarily employs early-stage investment strategies, focusing on seed and Series A funding rounds for technology companies with high growth potential.</strong> Her approach often involves active participation in portfolio companies&#x27; strategic decisions. This hands-on method distinguishes her investment style.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81e5-bc76-f13fc621460f" class="">As a Venture Partner at Draper Associates, she has participated in 12 investment rounds, demonstrating a targeted approach to funding, according to her Crunchbase profile. Her portfolio includes companies across diverse technology sectors, such as artificial intelligence, fintech, and consumer internet. This diversification aims to mitigate risk while maximizing potential returns.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-8110-b535-ec4ba7647500" class="">Draper&#x27;s investment philosophy emphasizes disruptive technologies and strong founding teams, often prioritizing market potential over immediate profitability. This strategy aligns with the high-risk, high-reward nature characteristic of early-stage venture capital. She seeks companies that can achieve significant market penetration and scale rapidly, often in global markets.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81e3-8396-da4fe0d35151" class="">Does her investment strategy adapt to changing market conditions?</p></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-8131-bef0-e9015d59dda6" class="">What are Jessi Draper&#x27;s notable achievements?</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81d4-a04e-cc0ba92a18db" class=""><strong>Jessi Draper&#x27;s notable achievements include her successful investment exits, her recognition as a leading figure in venture capital, and her consistent support for entrepreneurial innovation.</strong> These accomplishments underscore her significant influence in the tech industry. She has built a reputation for identifying and nurturing promising ventures.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81de-8caa-cc5c26dec108" class="">Jessi Draper was named one of the &quot;Top 25 Women in Tech&quot; by Forbes in 2012, acknowledging her significant impact on the technology sector. This recognition highlights her early contributions and foresight in the evolving digital landscape. Her leadership has inspired numerous women in entrepreneurship and venture capital.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-8111-b9ae-e9e37274a63c" class="">Her strategic foresight has led to successful exits for portfolio companies, generating substantial returns for investors. These exits validate her ability to identify and nurture high-potential businesses from their nascent stages. She also co-founded Luvo Inc., a healthy food company, further demonstrating her entrepreneurial capabilities beyond the investment realm.</p></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-814f-a557-f32dfe9a21ec" class="">How does Jessi Draper influence emerging technologies?</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-815b-9acc-e598f38ba494" class=""><strong>Jessi Draper influences emerging technologies by investing in innovative startups and providing strategic direction to companies developing cutting-edge solutions.</strong> Her focus includes areas like artificial intelligence, fintech, and sustainable technologies. She actively seeks out companies that are poised to disrupt traditional industries.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-814d-b05b-c667c8910723" class="">Her firm, Draper Associates, has invested in over 20 companies focused on AI and machine learning, reflecting a strong commitment to these sectors, according to their portfolio page. This strategic focus helps accelerate the development and adoption of new technological paradigms. Draper often provides guidance on product development, market positioning, and scaling challenges specific to these advanced fields.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81ee-bed0-c514de62424a" class="">Draper often advocates for technologies that address significant market gaps or offer transformative solutions to existing industries. Her advisory roles help shape product development and market entry strategies for these nascent technologies. She also champions ethical considerations in technology development, promoting responsible innovation.</p></div><div style="display:contents" dir="auto"><h2 id="320ec5e9-274e-8187-8905-e87c01f60dcf" class="">What is the enduring impact of Jessi Draper&#x27;s career?</h2></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-814e-a322-f9855a8d7901" class=""><strong>The enduring impact of Jessi Draper&#x27;s career lies in her sustained influence on the venture capital landscape and her role in fostering technological innovation.</strong> She has shaped numerous companies and inspired new generations of entrepreneurs. Her legacy extends through the success of her portfolio companies and the founders she has mentored.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81eb-8779-cf8ea14fd59d" class="">Her continued involvement in the venture capital sector, spanning over 15 years, indicates a lasting dedication to empowering early-stage companies, as documented by her LinkedIn profile. This longevity in a highly dynamic industry underscores her resilience and adaptability. She remains a prominent voice in discussions about future technology trends and investment opportunities.</p></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81a1-a330-dc7ec15f0088" class="">Draper&#x27;s contributions extend beyond capital provision; she has built a reputation for insightful mentorship, which is critical for founders navigating the complexities of startup growth. This mentorship creates a ripple effect, supporting future innovation and cultivating a robust entrepreneurial ecosystem. Her strategic vision continues to guide investments into groundbreaking technologies.</p></div><div style="display:contents" dir="auto"><h3 id="320ec5e9-274e-81a5-81d7-c8a07c1948b3" class="">FAQ</h3></div><div style="display:contents" dir="auto"><h3 id="320ec5e9-274e-81c8-aea4-f23470b4fdff" class="">Who is Jessi Draper?</h3></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-812d-8868-e055fc8996eb" class="">Jessi Draper is an American entrepreneur, venture capitalist, and startup advisor with extensive experience in the technology sector. She is known for her roles at First Round Capital and Draper Associates, and for advising over 50 startups, as highlighted by a TechCrunch 2012 report.</p></div><div style="display:contents" dir="auto"><h3 id="320ec5e9-274e-8124-acf9-c8261f41c022" class="">What type of companies does Jessi Draper invest in?</h3></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81ae-9fe4-d938d9b00781" class="">Jessi Draper primarily invests in early-stage technology companies, focusing on seed and Series A funding rounds. Her portfolio includes ventures in artificial intelligence, fintech, and other disruptive technologies, with her firm Draper Associates having invested in over 20 AI companies, per their portfolio page.</p></div><div style="display:contents" dir="auto"><h3 id="320ec5e9-274e-81a7-b83d-cb0729977782" class="">Where did Jessi Draper work previously?</h3></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-81eb-8431-fb526a7cf118" class="">Before becoming a Venture Partner at Draper Associates, Jessi Draper held significant positions at First Round Capital and was involved with Google Ventures. Her career trajectory demonstrates a consistent focus on early-stage technology and venture capital, spanning over 15 years, as shown on her LinkedIn profile.</p></div><div style="display:contents" dir="auto"><h3 id="320ec5e9-274e-816d-8dd7-c35851089f54" class="">Has Jessi Draper received any awards?</h3></div><div style="display:contents" dir="auto"><p id="320ec5e9-274e-819d-b650-d719a02f5372" class="">Yes, Jessi Draper has received recognition for her contributions to the technology industry. Notably, she was named one of the &quot;Top 25 Women in Tech&quot; by Forbes in 2012. This award acknowledged her significant influence and leadership within the rapidly expanding tech sector.</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
